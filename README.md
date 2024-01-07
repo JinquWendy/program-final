@@ -1,17 +1,19 @@
-数据来源：
+### 数据来源：
 本数据集来源于2021年BRFSS（行为风险因素监测系统）数据集。BRFSS是一项正在进行的、基于州的电话调查，旨在收集有关居住在美国的18岁及以上成年人中与健康相关的风险行为、慢性健康状况和预防服务使用情况的数据。BRFSS由美国疾病控制与预防中心（CDC）每年进行一次，自1984年成立以来，一直为美国成年人的健康状况和行为提供有价值的见解。
-本文使用了diabetes_binary_health_indicators_BRFSS2021.csv数据集
 
-项目简介：
+本文使用了diabetes_binary_health_indicators_BRFSS2021.csv数据集
+网址：https://www.kaggle.com/datasets/julnazz/diabetes-health-indicators-dataset/data
+
+### 项目简介：
 探索特征与糖尿病之间的关系，以了解一些可能的风险因素或保护因素，这有助于于制定预防措施或制定健康政策。此外，使用常用的机器学习模型，尝试构建一个糖尿病的预测模型。
 
-复现说明：
+### 复现说明：
 Python 3.8.8，
 conda 4.10.1，
 scikit-learn 1.3.2，
 imblearn 0.11.0
 
-代码结构：
+### 代码结构：
 1. 数据清洗
 2. 数据可视化
 3. 数据划分与类别不平衡处理
